@@ -3,7 +3,7 @@ import Form from './components/Form';
 import List from './components/List';
 import Filter from './components/Filter';
 import Section from './components/Section';
-// import s from './App.css';
+
 
 class App extends Component {
   state = {
@@ -53,13 +53,6 @@ class App extends Component {
 
     return (
       <>
-          {/* <div className={s.container}>
-            <h1 className={s.title}>Phonebook</h1>
-            <Form onSubmit={this.addContacts} />
-            <h2 className={s.title}>Contacts</h2>
-            <Filter value={filter} onChange={this.changeFilter} />
-            <List contacts={visibleContact} onDeleteContact={this.deleteContact} />
-          </div> */}
         <Section title="Phonebook">
           <Form onSubmit={this.addContacts} />
         </Section>
