@@ -1,0 +1,40 @@
+.formWrap {
+  text-align: center;
+}
+.inputWrap {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  margin: 25px auto;
+}
+.label {
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.input {
+  font-size: 17px;
+}
+
+.button {
+  margin: 5px;
+  min-width: 70px;
+  min-height: 30px;
+  border-style: none;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  transform: scale(1);
+  transition: transform 50ms linear;
+}
+
+.button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  background-color: #f3eed5;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.button:active {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
