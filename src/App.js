@@ -21,7 +21,7 @@ class App extends Component {
     const names = contacts.map(contact => contact.name.toLowerCase());
 
     names.includes(data.name.toLowerCase())
-      ? alert(`${data.name} in contact`)
+      ? alert(`${data.name} is already in contact`)
       : this.setState(prevState => ({
           contacts: [data, ...prevState.contacts],
       }))
